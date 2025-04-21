@@ -6,6 +6,24 @@
     background-color: black;
 }
 
+.mainScreen{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 20px;
+}
+
+.gamesThumb{
+    width: 100px;
+    height: 100px;
+    background-color: rgba(226, 226, 226, 0.267);
+    border-radius: 14px;
+}
+
 #author{
     font-size: 12px;
     color: #B99E55;

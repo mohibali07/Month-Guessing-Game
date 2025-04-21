@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Month Guessing Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<h1 id="author">Developed By Mohib Ali</h1>
+
+<div id="section1">
+  <h1>Guess The Month Game</h1>
+  <button id="generate_btn" onclick="toggle()">Generate The Random Month</button>
+</div>
+
+<div id="section2">
+  <h1 id="heading3">Please Guess The Month</h1>
+  <input type="text" placeholder="Enter the month" id="guess_value">
+  <button id="check" onclick="checking()">Guess</button>
+  <p id="message"></p>
+  <p id="hint"></p>
+  <img id="fireworks" src="4A5.gif" alt="fireworksImage">
+  <button id="playAgain" onClick="window.location.reload();">Play Again</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+
+</html>
